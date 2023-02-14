@@ -2,7 +2,7 @@
 <div class="container">
       <div class="row p-0 mx-0 align-items-center">
         <div class= "col-lg-4 col-md-12 col-sm-12">
-          <p>LOGO<img src=""></p>
+        <img class="logo-footer"  src="<?php echo base_url()?>/imagenes/logo.jpeg">
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
           <a href="" target="_blank"><img  class= "social-buttons"  src="<?php echo base_url()?> /imagenes/fb.png"></a>

@@ -11,9 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO" rel="stylesheet" type="text/css"/>
   <style>
 
+  @import url(//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO);
 
+    @font-face {font-family: "adineue PRO"; src: url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.eot"); src: url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.svg#adineue PRO") format("svg"); }
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
@@ -40,6 +43,11 @@
     padding: 10vh 25px;
     font-family: Montserrat, sans-serif;
   }
+
+  .video-text{
+    font-family: adineue PRO, sans-serif;
+    font-weight: bold;
+  }
   .center {
   position: absolute;
   left: 0;
@@ -53,8 +61,8 @@
   }
   
   .btn-jumbotron{
-    background-color: #40B5AD !important;
-    border-color: #40B5AD;
+    background-color: #9162DD !important;
+    border-color: #9162DD;
   }
   .container-fluid {
     
@@ -152,6 +160,22 @@
 .btn-contact{
   text-decoration:none;
   color: white;
+  
+}
+
+.btn_contacto{
+  background-color: #9162DD !important;
+  border-color: #9162DD;
+}
+
+.panel > .panel-heading{
+  background-color: #9162DD !important;
+  border-color: #9162DD;
+}
+
+.promociones{
+  background-color: #9162DD !important;
+  border-color: #9162DD;
 }
 
 .btn-contact:visited{
@@ -161,6 +185,15 @@
 
 .btnbuscar{
   text-align: left !important;
+}
+
+.marcas{
+  width: 25%;
+  
+}
+
+.logo{
+  width: 5%;
 }
   @media screen and (max-width: 767px) {
   #about{
@@ -179,12 +212,13 @@
   .nosotros{
     margin-left:0%;
   }
-
+  .marcas{
+  width: 15%;
+  }
   }
 
-  .logo {
-    color: #0000;
-    font-size: 150px;
+  .logo-footer {
+    width: 30%;
   }
   .thumbnail {
     padding: 0 0 15px 0;
@@ -267,6 +301,11 @@
     background-color: #0E6655;
     color: #fff;
   }
+
+  .footer-fondo{
+    background-color: #9162DD !important;
+  }
+
   .navbar {
     margin-bottom: 0;
     background-color: #ffff;
@@ -282,7 +321,7 @@
     color: #000 !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #40B5AD !important;
+    color: #9162DD !important;
     background-color: #E5E8E8 !important;
   }
   .navbar-default .navbar-toggle {
@@ -301,6 +340,18 @@
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
+  }
+
+  .caja-marcas{
+    margin-top: 5%;
+    background-color: #9162DD;
+    
+  }
+
+  .centrar-marca {
+    display: flex;
+  justify-content: center;
+  align-items: center;
   }
   @keyframes slide {
     0% {
@@ -333,15 +384,31 @@
     }
   } */
   @media screen and (max-width: 480px) {
-    .logo {
+    /* .logo {
       font-size: 150px;
-    }
+    } */
 
     .video_header {
       height: 50vh;
   
     }
+    .marcas{
+      width: 50%;
+    }
+
+    .caja-marcas{
+    margin-top: 25%;
+    }
+
+    .logo{
+    width: 20%;
+    }
+
+    .centrar-marca {
+    margin-top: 10%;
   }
+  }
+  
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">

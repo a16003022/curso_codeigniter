@@ -1,7 +1,7 @@
 <div class="video_header">
 
   <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-  <!-- <div class="overlay"></div> -->
+  <div class="overlay"></div>
 
   <!-- The HTML5 video element that will create the background video on the header -->
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -12,7 +12,7 @@
   <div class="container  h-100">
     <div class="d-flex h-100 text-center align-items-center ">
       <div class="w-100 text-white">
-        <h1 class="display-3">Tec-Shirts</h1>
+        <h1 class="display-3 video-text">TEC-SHIRTS</h1>
         <p class="lead mb-0">¡Registrate y obtén 15% de descuento en tu primera compra!</p>
         <form class="form col-lg-6 col-sm-12 center">
     <div class="input-group ">
@@ -35,10 +35,10 @@
       <h4>Somos Tec-Shirts, una empresa ubicada en Mérida, Yucatán, dedicada a la producción y venta de ropa de alta calidad. Nos enorgullece ofrecer productos con un estilo fresco y moderno, hechos con materiales de la más alta calidad.<br> <br>Además de nuestra amplia gama de ropa, en Tec-Shirts también ofrecemos una línea de bolsas térmicas de alta calidad. Estas bolsas están diseñadas para mantener tus alimentos y bebidas a la temperatura perfecta, ya sea en el trabajo, en un picnic o en un viaje.
 
       <br><br>Nos esforzamos por utilizar materiales duraderos y respetuosos con el medio ambiente en la fabricación de nuestras bolsas térmicas, y por ofrecer una amplia variedad de tamaños y estilos para satisfacer las necesidades de todos nuestros clientes.</p>
-      <br><button type="button" class="btn btn-dark"><a class="btn-contact" href="#contact">Contáctanos</a></button>
+      <br><button type="button" class="btn btn-dark btn_contacto"><a class="btn-contact" href="#contact">Contáctanos</a></button>
     </div>
     <div class="col-lg-2 imgdiv">
-      <img class="nosotros_img" src="<?php echo base_url()?>/imagenes/sudadera.jpg"/>
+      <img class="nosotros_img" src="<?php echo base_url()?>/imagenes/sudadera3.jpg"/>
     </div>
   </div>
 </div>
@@ -124,7 +124,7 @@
       </div>
     </div>
   </div><br>
-  
+<!-- </div> -->
   <h2>Comentarios de nuestros clientes</h2>
   <div id="myCarousel" class="carousel slide text-center" data-bs-ride="carousel">
     <!-- Indicators -->
@@ -166,10 +166,10 @@
     <h2><br>Paquetes</h2>
     <h4>Selecciona un paquete para ti</h4>
   </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
+  <div class="row slideanim ">
+    <div class="col-sm-4 col-xs-12 ">
+      <div class="panel panel-default text-center ">
+        <div class="panel-heading promociones">
           <h1>Básico</h1>
         </div>
         <div class="panel-body">
@@ -181,7 +181,7 @@
         </div>
         <div class="panel-footer">
           <h3>$699</h3>
-          <button class="btn btn-lg">Comprar</button>
+          <button class="btn btn-lg promociones">Comprar</button>
         </div>
       </div>      
     </div>     
@@ -199,13 +199,13 @@
         </div>
         <div class="panel-footer">
           <h3>$999</h3>
-          <button class="btn btn-lg">Comprar</button>
+          <button class="btn btn-lg promociones">Comprar</button>
         </div>
       </div>      
     </div>       
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
-        <div class="panel-heading">
+        <div class="panel-heading ">
           <h1>Premium</h1>
         </div>
         <div class="panel-body">
@@ -216,7 +216,7 @@
         </div>
         <div class="panel-footer">
           <h3>$1699</h3>
-          <button class="btn btn-lg">Comprar</button>
+          <button class="btn btn-lg promociones">Comprar</button>
         </div>
       </div>      
     </div>    
@@ -224,7 +224,7 @@
 </div>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid ">
+<div id="contact" class="container-fluid text-center">
   <h2 class="text-center cnt-txt">CONTACTO</h2>
   <div class="row">
     <div class="col-sm-5 mapouter">
@@ -248,7 +248,13 @@
       <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-dark pull-right" type="submit">Enviar</button>
+          <!-- <img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/79wsjD0Xy7FmmYvR0sCncy/5b732b7e26adb7d6c06d943d14dc4acd/not-a-robot.png" style="max-width:35%;"> -->
+          <div class="g-recaptcha brochure__form__captcha" data-sitekey="6Lfqa3okAAAAAFeDDk0pDfN9TZJ3DrL57bCICsxI" style="display: inline-block;"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-dark pull-right promociones" type="submit">Enviar</button>
         </div>
       </div>
       <!-- <div class="row me-auto">
@@ -259,4 +265,4 @@
   </div>
 </div>
 
-<!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
