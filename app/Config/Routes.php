@@ -33,6 +33,7 @@ $routes->get('/', 'Home::index');
 //ruta - clase - metodo
 $routes->add('/articulos', 'articulos::mensaje');
 $routes->add('inicio', 'Inicio::index');
+$routes->add('registro', 'Registro::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
