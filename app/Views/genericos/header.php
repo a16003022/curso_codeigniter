@@ -31,6 +31,27 @@
     font-weight: 600;
     margin-bottom: 30px;
   }
+  #promoCarousel{
+  height: 100vh;
+  }
+.carousel-item{
+  overflow: hidden;
+  height: 100vh;
+  background-color: #000;
+  }
+.carousel-item > img{ object-fit: cover; object-position: center; min-height: 100vh; opacity: 45%;}
+.carousel-caption{
+  position: absolute;
+  right: unset;
+  top: 30%;
+  left: 10%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  }
   h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -38,6 +59,7 @@
     font-weight: 400;
     margin-bottom: 30px;
   }  
+
   .jumbotron {
     background-color: #0E6655;
     color: #fff;
@@ -92,6 +114,8 @@
   #terminos{
     z-index: 50;
     cursor: pointer;
+    color: black;
+    font-weight: bold;
     font-size: 18px;
   }
   #about img{
@@ -99,14 +123,55 @@
     object-fit: cover;
     object-position: center;
   }
+  #promos .card .card-title{
+    color: #9162DD;
+    font-weight: bold;
+  }
+  #promos .card .card-text{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #promos .card:hover {
+    background-color: #9162DD;
+    color: white !important;
+  }
+  #promos .card:hover .card-title{
+    color:white !important;
+  }
+  #promos .card:hover .btn-promos{
+    background-color:  #1BBABA;
+    border-color: #1BBABA;
+    visibility: visible;
+  }
+  .btn-promos{
+    background-color:  #9162DD;
+    border-color: #9162DD;
+  }
+
+  @media screen and (max-width: 767px) {
+  #about{
+    max-height: 100vh;
+    margin-bottom: -100vh;
+    z-index: 2;
+    color:white !important;
+    background-color: rgba(0, 0, 0, 0.5);
+      }
+  .text-about{
+    color:white;
+    }
+  }
+  .centrado{
+    display: block;
+    align-items: center;
+  }
 
   .nosotros{
     margin-top:5%;
     margin-left:5%;
   }
-
-  .imgdiv{
-  
+  .text-10{
+    font-size: 30px;
+    font-weight: bold;
   }
 
   .nosotros_img{
@@ -302,7 +367,6 @@
     background-color: #0E6655;
     color: #fff;
   }
-
   .footer-fondo{
     background-color: #9162DD !important;
   }
@@ -409,6 +473,7 @@
     margin-top: 10%;
   }
   }
+
   
   </style>
 </head>

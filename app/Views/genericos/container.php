@@ -13,22 +13,35 @@
     <div class="d-flex h-100 text-center align-items-center ">
       <div class="w-100 text-white">
         <h1 class="display-3 video-text">TEC-SHIRTS</h1>
-        <p class="lead mb-0">¡Registrate y obtén 15% de descuento en tu primera compra!</p>
+        <p class="lead mb-0 text-10">¡Inscribete a la 10° carrera 10k-Yucatán y recibe tu kit TEC-SHIRTS! </p>
         <form class="form col-lg-6 col-sm-12 center">
-    <div class="input-group ">
-      <input type="email" class="form-control" size="10" placeholder="Correo electrónico" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger btn-jumbotron">Suscribete</button>
-      </div>
-    </div>
-  </form>
+          <div>
+              <button type="button" class="btn btn-danger btn-jumbotron w-25">Inscribirme</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
 </div>
-
-<!-- Container (About Section) -->
-<div id="about" class="container nosotros ">
+<section style="height: 80vh;">
+      <div class="row p-0 mx-0">
+        <div class="col-12 col-lg-6 col-md-6 col-sm-12 centrado" id="about">
+            <div class="mx-auto">
+                <div class="container p-5 text-about">
+                    <h2 class="text-about">Sobre nosotros</h2>
+                    <h6>Somos Tec-Shirts, una empresa ubicada en Mérida, Yucatán, dedicada a la producción y venta de ropa de alta calidad. Nos enorgullece ofrecer productos con un estilo fresco y moderno, hechos con materiales de la más alta calidad.<br> <br>Además de nuestra amplia gama de ropa, en Tec-Shirts también ofrecemos una línea de bolsas térmicas de alta calidad. Estas bolsas están diseñadas para mantener tus alimentos y bebidas a la temperatura perfecta, ya sea en el trabajo, en un picnic o en un viaje.
+                    <br><br>Nos esforzamos por utilizar materiales duraderos y respetuosos con el medio ambiente en la fabricación de nuestras bolsas térmicas, y por ofrecer una amplia variedad de tamaños y estilos para satisfacer las necesidades de todos nuestros clientes.</h6>
+                    <br><button type="button" class="btn btn-dark btn_contacto"><a class="btn-contact" href="#contact">Contáctanos</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-md-6 col-sm-12 p-0">
+            <img class="w-100 my-auto" src="<?php echo base_url()?>/imagenes/sudadera3.jpg"/>
+        </div>
+    </div>
+</section>
+<!-- Container (About Section) 
+<div id="about" class="container nosotros">
   <div class="row d-flex  align-items-center">
     <div class="col-lg-10 col-md-12">
       <h2>Sobre Nosotros</h2><br>
@@ -41,20 +54,67 @@
       <img class="nosotros_img" src="<?php echo base_url()?>/imagenes/sudadera3.jpg"/>
     </div>
   </div>
-</div>
-
-<div class="container-fluid bg-grey ">
+</div>-->
+<!--Carousel-->
+<div id="promoCarousel" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center" data-bs-interval='5000'>
+                <img src="<?php echo base_url()?>/imagenes/carousel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
+                    <h2 class="text-white">¡Registrate!</h2>
+                    <p>
+                    ¡Obtén un 15% de descuento en tu primera compra!
+                    </p>
+                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto">Registrarme</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval='3000'>
+                <img src="<?php echo base_url()?>/imagenes/carousel1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
+                    <h2 class="text-white text-left col-8 mr-auto">Misión</h2>
+                    <p>
+                    Nuestra misión es proporcionar a nuestros clientes ropa de alta calidad, con un enfoque en la moda y el estilo, mientras mantenemos una cultura de responsabilidad social y sostenibilidad. 
+                    </p>
+                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto " data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Contacto </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval='5000'>
+                <img src="<?php echo base_url()?>/imagenes/cr1.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
+                    <h2 class="text-white text-justify">Visión</h2>
+                    <p>
+                    Nuestra visión es ser reconocidos como líderes en la industria de la moda, innovando constantemente en diseño y tecnología para ofrecer a nuestros clientes una experiencia de compra única y memorable. 
+                    </p>
+                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto" data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Contacto</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#promoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#promoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- <div class="container-fluid bg-grey ">
   <div class="row">
-    <!-- <div class="col-sm-4">
+    <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div> -->
+    </div> 
     <div class="col-10 nosotros">
       <h2>Nuestros valores</h2><br>
       <h4><strong>MISIÓN:</strong>Nuestra misión es proporcionar a nuestros clientes ropa de alta calidad, con un enfoque en la moda y el estilo, mientras mantenemos una cultura de responsabilidad social y sostenibilidad. Nos esforzamos por crear productos que reflejen la diversidad y la inclusión, y por mantener una comunicación transparente y ética con todos nuestros stakeholders.</h4><br>
       <p><strong>VISIÓN:</strong> Nuestra visión es ser reconocidos como líderes en la industria de la moda, innovando constantemente en diseño y tecnología para ofrecer a nuestros clientes una experiencia de compra única y memorable. Aspiramos a ser una empresa respetada y admirada por nuestra dedicación a la sostenibilidad y el impacto positivo en la sociedad y el medio ambiente.</p>
     </div>
   </div>
-</div>
+</div>-->
 
 <!-- Container (Services Section) -->
 <!--<div id="services" class="container-fluid text-center">
@@ -167,7 +227,59 @@
     <h4>Selecciona un paquete para ti</h4>
   </div>
   <div class="row slideanim ">
-    <div class="col-sm-4 col-xs-12 ">
+    <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
+      <div class="card h-100 p-4">
+        <div class="card-body text-center" style="padding:0px; margin:0px;">
+            <h4 class="card-title mb-0 p-2">Básico</h4>
+            <h5>Incluye:</h5>
+            <p><strong>2</strong> Playeras</p>
+            <p><strong>1</strong> Sudadera</p>
+            <h3>$699</h3>
+            <br>
+          <br>
+        </div>
+        <div class="card-footer text-center" style="border: none; background-color: transparent; padding:5px; margin:5px;">  
+        <a class="btn btn-primary btn-promos">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
+      <div class="card h-100 p-4">
+        <div class="card-body text-center" style="padding:0px; margin:0px;">
+            <h4 class="card-title mb-0 p-2">Intermedio</h4>
+            <h5>Incluye:</h5>
+            <p><strong>1</strong> Playeras</p>
+            <p><strong>1</strong> Sudadera</p>
+            <p><strong>1</strong> Bolsa térmica</p>
+            <h3>$999</h3>
+            <br>
+          <br>
+        </div>
+        <div class="card-footer text-center" style="border: none; background-color: transparent; padding:5px; margin:5px;">  
+        <a class="btn btn-primary btn-promos">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
+      <div class="card h-100 p-4">
+        <div class="card-body text-center" style="padding:0px; margin:0px;">
+            <h4 class="card-title mb-0 p-2">Básico</h4>
+            <h5>Incluye:</h5>
+            <p><strong>2</strong> Playeras</p>
+            <p><strong>1</strong> Sudadera</p>
+            <p><strong>3</strong> Bolsas térmicas</p>
+            <h3>$1699</h3>
+            <br>
+          <br>
+        </div>
+        <div class="card-footer text-center" style="border: none; background-color: transparent; padding:5px; margin:5px;">  
+        <a class="btn btn-primary btn-promos">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--<div class="col-sm-4 col-xs-12 ">
       <div class="panel panel-default text-center ">
         <div class="panel-heading promociones">
           <h1>Básico</h1>
@@ -221,10 +333,21 @@
       </div>      
     </div>    
   </div>
+</div>-->
+<!--Alianzas-->
+<div class=" row centrar-marca text-center">
+    <div class="col-4 col-sm-12 col-md-4 caja">
+    <img src="<?php echo base_url()?>/imagenes/nike.png" class="marcas ">
+    </div>
+    <div class="col-4 col-sm-12 col-md-4  caja">
+    <img src="<?php echo base_url()?>/imagenes/Adidas.png" class="marcas" >
+    </div>
+    <div class="col-4 col-sm-12 col-md-4  caja">
+    <img src="<?php echo base_url()?>/imagenes/puma.png" class="marcas" >
+    </div>
 </div>
-
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid text-center">
+<div id="contact" class="container-fluid text-center bg-grey p-2">
   <h2 class="text-center cnt-txt">CONTACTO</h2>
   <div class="row">
     <div class="col-sm-5 mapouter">
@@ -237,15 +360,15 @@
       <p><span class="glyphicon glyphicon-envelope"></span> contacto@tecshirts.com</p>
     </div>
     <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
+      <div class="row p-0 mx-0 align-items-center">
+        <div class="col-sm-6 form-group p-2">
           <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
         </div>
-        <div class="col-sm-6 form-group">
+        <div class="col-sm-6 form-group p-2">
           <input class="form-control" id="email" name="email" placeholder="Correo" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+      <textarea class="form-control p-4" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
           <!-- <img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/79wsjD0Xy7FmmYvR0sCncy/5b732b7e26adb7d6c06d943d14dc4acd/not-a-robot.png" style="max-width:35%;"> -->

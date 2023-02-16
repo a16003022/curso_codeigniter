@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light ">
   <div class="container-fluid">
-      <img class="logo"  src="<?php echo base_url()?>/imagenes/logo.jpeg">
+      <img class="logo"  src="<?php echo base_url()?>/imagenes/1.png">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
