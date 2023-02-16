@@ -80,7 +80,7 @@
                     <p>
                     Nuestra misión es proporcionar a nuestros clientes ropa de alta calidad, con un enfoque en la moda y el estilo, mientras mantenemos una cultura de responsabilidad social y sostenibilidad. 
                     </p>
-                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto " data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Contacto </a>
+                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto " data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Contactános! </a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval='5000'>
@@ -90,7 +90,7 @@
                     <p>
                     Nuestra visión es ser reconocidos como líderes en la industria de la moda, innovando constantemente en diseño y tecnología para ofrecer a nuestros clientes una experiencia de compra única y memorable. 
                     </p>
-                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto" data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Contacto</a>
+                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto" data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Ver productos</a>
                 </div>
             </div>
         </div>
@@ -165,27 +165,28 @@
     <div class="col-sm-4">
       <div class="thumbnail">
         <img class="img-fluid" src="<?php echo base_url()?>/imagenes/playeras.jfif" alt="Playeras" style="max-width:60%;">
-        <p><strong>Playeras</strong></p>
+        <p class="subtitle"><strong>Playeras</strong></p>
         <p>¡Consigue el estilo que buscas con nuestras playeras!</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="<?php echo base_url()?>/imagenes/sudadera2.jpg" alt="New York" style="max-width:60%;">
-        <p><strong>Sudaderas</strong></p>
+        <p class="subtitle"><strong>Sudaderas</strong></p>
         <p>¡Brilla con estilo en cualquier ocasión con nuestras sudaderas!</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="<?php echo base_url()?>/imagenes/bolsa.jpg" alt="San Francisco" style="max-width:68%;">
-        <p><strong>Bolsas térmicas</strong></p>
+        <p class="subtitle"><strong>Bolsas térmicas</strong></p>
         <p>¡Mantén tus alimentos frescos y tus bebidas calientes donde quiera que vayas con nuestras bolsas térmicas!</p>
       </div>
     </div>
   </div><br>
 <!-- </div> -->
-  <h2>Comentarios de nuestros clientes</h2>
+<div class="bg-grey p-3">
+  <h2 class="p-3">Comentarios de nuestros clientes</h2>
   <div id="myCarousel" class="carousel slide text-center" data-bs-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -217,23 +218,24 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
+</div>
 
 <!-- Container (Pricing Section) -->
 
-<div id="promos" class="container-fluid bg-grey">
+<div id="promos" class="container-fluid">
   <div class="text-center">
-    <h2><br>Paquetes</h2>
-    <h4>Selecciona un paquete para ti</h4>
+    <h1><br>Paquetes</h1>
+    <h4>¡Selecciona un paquete para ti!</h4>
   </div>
   <div class="row slideanim ">
     <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
       <div class="card h-100 p-4">
         <div class="card-body text-center" style="padding:0px; margin:0px;">
+        <i class="fa-sharp fa-solid fa-shirt-running"></i>
             <h4 class="card-title mb-0 p-2">Básico</h4>
-            <h5>Incluye:</h5>
             <p><strong>2</strong> Playeras</p>
             <p><strong>1</strong> Sudadera</p>
+            <p class="regalo-promo">¡Llevate de regalo un termo ADIDAS!</p>
             <h3>$699</h3>
             <br>
           <br>
@@ -247,10 +249,10 @@
       <div class="card h-100 p-4">
         <div class="card-body text-center" style="padding:0px; margin:0px;">
             <h4 class="card-title mb-0 p-2">Intermedio</h4>
-            <h5>Incluye:</h5>
-            <p><strong>1</strong> Playeras</p>
+            <p><strong>1</strong> Playera</p>
             <p><strong>1</strong> Sudadera</p>
             <p><strong>1</strong> Bolsa térmica</p>
+            <p class="regalo-promo">¡Llevate de regalo una bolsa Puma!</p>
             <h3>$999</h3>
             <br>
           <br>
@@ -263,11 +265,11 @@
     <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
       <div class="card h-100 p-4">
         <div class="card-body text-center" style="padding:0px; margin:0px;">
-            <h4 class="card-title mb-0 p-2">Básico</h4>
-            <h5>Incluye:</h5>
+            <h4 class="card-title mb-0 p-2">Premium</h4>
             <p><strong>2</strong> Playeras</p>
             <p><strong>1</strong> Sudadera</p>
             <p><strong>3</strong> Bolsas térmicas</p>
+            <p class="regalo-promo">¡Llevate de regalo una sudadera Nike!</p>
             <h3>$1699</h3>
             <br>
           <br>
@@ -335,7 +337,7 @@
   </div>
 </div>-->
 <!--Alianzas-->
-<div class=" row centrar-marca text-center">
+<div class=" row centrar-marca text-center p-3">
     <div class="col-4 col-sm-12 col-md-4 caja">
     <img src="<?php echo base_url()?>/imagenes/nike.png" class="marcas ">
     </div>
@@ -347,8 +349,8 @@
     </div>
 </div>
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid text-center bg-grey p-2">
-  <h2 class="text-center cnt-txt">CONTACTO</h2>
+<div id="contact" class="container-fluid text-center contact p-2">
+  <h1 class="text-center cnt-txt">CONTACTO</h1>
   <div class="row">
     <div class="col-sm-5 mapouter">
       <div class="gmap_canvas">
