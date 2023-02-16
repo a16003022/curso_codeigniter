@@ -126,10 +126,21 @@
   #promos .card .card-title{
     color: #9162DD;
     font-weight: bold;
+    font-size: 25px;
   }
   #promos .card .card-text{
     font-weight: bold;
     font-size: 15px;
+  }
+  .regalo-promo{
+    font-weight: bold;
+    font-size: 20px;
+    color:#1BBABA;
+  }
+  .card:hover .regalo-promo{
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
   }
   #promos .card:hover {
     background-color: #9162DD;
@@ -150,7 +161,7 @@
 
   @media screen and (max-width: 767px) {
   #about{
-    max-height: 100vh;
+    max-height: 80vh;
     margin-bottom: -100vh;
     z-index: 2;
     color:white !important;
@@ -233,6 +244,13 @@
   background-color: #9162DD !important;
   border-color: #9162DD;
 }
+.contact{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("<?php echo base_url()?>/imagenes/contact.jpg");
+  color: white !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .panel > .panel-heading{
   background-color: #9162DD !important;
@@ -257,7 +275,11 @@
   width: 25%;
   
 }
-
+.subtitle{
+  font-weight: bold;
+  font-size: 20px;
+  color:  #9162DD;
+}
 .logo{
   width: 5%;
 }
