@@ -101,3 +101,14 @@
   </div>
 </section>
 <!-- Section: Design Block -->
+<div class=" row centrar-marca text-center p-3">
+    <div class="col-4 col-sm-12 col-md-4 caja">
+    <img src="<?php echo base_url()?>/imagenes/nike.png" class="marcas ">
+    </div>
+    <div class="col-4 col-sm-12 col-md-4  caja">
+    <img src="<?php echo base_url()?>/imagenes/Adidas.png" class="marcas" >
+    </div>
+    <div class="col-4 col-sm-12 col-md-4  caja">
+    <img src="<?php echo base_url()?>/imagenes/puma.png" class="marcas" >
+    </div>
+</div>
