@@ -1,38 +1,28 @@
 <!-- Section: Design Block -->
-<section class="background-imagn overflow-hidden">
+<section class="text-center text-lg-start">
   <style>
-    .background-imagn {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i2.wp.com/www.fantasticmag.es/wordpress2/wp-content/archivos/2017/03/nike-plus-size-ok.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+    .cascading-right {
+      margin-right: -50px;
     }
 
-    .bg-glass {
-      background-color: hsla(0, 0%, 100%, 0.9) !important;
-      backdrop-filter: saturate(200%) blur(25px);
+    @media (max-width: 991.98px) {
+      .cascading-right {
+        margin-right: 0;
+      }
     }
   </style>
 
-  <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
-    <div class="row gx-lg-5 align-items-center mb-5">
-      <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-        <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
-          Regístrate para <br />
-          <span style="color: #9162DD">obtener beneficios</span>
-        </h1>
-        <p class="mb-4">
-          <li class="text-promos">15% de descuento en tus primeras 15 compras</li>
-          <li class="text-promos">Carreras patrocinadas con paquetes Tec-Shirts</li>
-          <li class="text-promos">Promociones especiales para clientes registrados</li>
-        </p>
-      </div>
-
-      <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
-
-        <div class="card bg-glass text-center">
-          <div class="card-body px-4 py-5 px-md-5">
-          <form>
+  <!-- Jumbotron -->
+  <div class="container py-4">
+    <div class="row g-0 align-items-center">
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="card cascading-right" style="
+            background: hsla(0, 0%, 100%, 0.55);
+            backdrop-filter: blur(30px);
+            ">
+          <div class="card-body p-5 shadow-5 text-center">
+            <h2 class="fw-bold mb-5">Regístrate ahora</h2>
+            <form>
               <!-- 2 column grid layout with text inputs for the first and last names -->
               <div class="row">
                 <div class="col-md-6 mb-4">
@@ -97,7 +87,13 @@
           </div>
         </div>
       </div>
+
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <img src="https://c.pxhere.com/photos/e3/85/jog_jogger_training_run_sport_sporty_fit_running-1183544.jpg!d" class="w-100 rounded-4 shadow-4"
+          alt="" />
+      </div>
     </div>
   </div>
+  <!-- Jumbotron -->
 </section>
 <!-- Section: Design Block -->

@@ -32,7 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 //ruta - clase - metodo
 $routes->add('/articulos', 'articulos::mensaje');
-$routes->add('curso_Codeigniter/inicio', 'Inicio::index');
+$routes->add('inicio', 'Inicio::index');
 $routes->add('registro', 'Registro::index');
 /*
  * --------------------------------------------------------------------

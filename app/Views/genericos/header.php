@@ -275,13 +275,19 @@
   width: 25%;
   
 }
+
+.text-promos{
+  color: #ffffff;
+  font-size: large;
+}
+
 .subtitle{
   font-weight: bold;
   font-size: 20px;
   color:  #9162DD;
 }
 .logo{
-  width: 5%;
+  width: 15%;
 }
   @media screen and (max-width: 767px) {
   #about{
