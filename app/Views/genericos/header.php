@@ -159,6 +159,25 @@
     border-color: #9162DD;
   }
 
+  .card {
+  border-radius: .7rem;
+}
+
+.stars{
+  color: #9162DD !important;
+}
+
+.imag{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.fijado{
+  position: fixed; 
+  z-index: 100; 
+  width: 100%;
+}
+
   @media screen and (max-width: 767px) {
   #about{
     max-height: 80vh;
@@ -287,8 +306,10 @@
   color:  #9162DD;
 }
 .logo{
-  width: 15%;
+  width: 20%;
 }
+
+
   @media screen and (max-width: 767px) {
   #about{
     /* max-height: 100vh;
@@ -297,6 +318,7 @@
     color:white;
     /* background-color: rgba(0, 0, 0, 0.5); */
     }
+
   }
 
   @media screen and (max-width: 992px) {
@@ -307,7 +329,7 @@
     margin-left:0%;
   }
   .marcas{
-  width: 15%;
+  width: 25%;
   }
   }
 

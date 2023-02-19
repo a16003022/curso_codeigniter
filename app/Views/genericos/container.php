@@ -1,4 +1,4 @@
-<div class="video_header">
+<div class="video_header" style="padding-top: 60px;">
 
   <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
   <div class="overlay"></div>
@@ -183,10 +183,11 @@
         <p>¡Mantén tus alimentos frescos y tus bebidas calientes donde quiera que vayas con nuestras bolsas térmicas!</p>
       </div>
     </div>
-  </div><br>
-<!-- </div> -->
-<div class="bg-grey p-3">
-  <h2 class="p-3">Comentarios de nuestros clientes</h2>
+  </div>
+</div>
+
+<!-- <div class="bg-grey p-3">
+  <h2 class="p-3 text-center">Comentarios de nuestros clientes</h2>
   <div id="myCarousel" class="carousel slide text-center" data-bs-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -196,7 +197,7 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <!-- <div class="carousel-inner" role="listbox">
       <div class="item active">
         <h4>"Esta empresa es la mejor. ¡Estoy tan feliz con el resultado!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
       </div>
@@ -206,10 +207,10 @@
       <div class="item">
         <h4>"¿Podría ... Estar más contento con esta empresa?<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
       </div>
-    </div>
+    </div> -->
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
@@ -217,8 +218,117 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div> -->
+<!-- </div> -->
+
+<section class="slideanim" style="color: #000; background-color: #f3f2f2;">
+  <div class="container py-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-10 col-xl-8 text-center">
+        <h3 class="fw-bold mb-4">Comentarios de nuestros clientes</h3>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="<?php echo base_url()?>/imagenes/Persona1.jpeg"
+                class="imag" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold">Teresa May</h5>
+            <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-info stars"></i>
+              </li>
+            </ul>
+            <p class="mb-2">
+              <i class="fas fa-quote-left pe-2"></i>Esta empresa es la mejor. ¡Estoy tan feliz!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="<?php echo base_url()?>/imagenes/Persona 2.jpeg"
+                class="imag" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold">Maggie McLoan</h5>
+            <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+            </ul>
+            <p class="mb-2">
+              <i class="fas fa-quote-left pe-2"></i>Una palabra... WOW!!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-0">
+        <div class="card">
+          <div class="card-body py-4 mt-2">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="<?php echo base_url()?>/imagenes/Persona 3.jpeg"
+                class="imag" width="100" height="100" />
+            </div>
+            <h5 class="font-weight-bold">Daniel Ricciardo</h5>
+            <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-info stars"></i>
+              </li>
+              <li>
+                <i class="far fa-star fa-sm text-info stars"></i>
+              </li>
+            </ul>
+            <p class="mb-2">
+              <i class="fas fa-quote-left pe-2"></i>¿Podría ... Estar más contento con esta empresa?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- Container (Pricing Section) -->
 
@@ -338,14 +448,14 @@
 </div>-->
 <!--Alianzas-->
 <div class=" row centrar-marca text-center p-3">
-    <div class="col-4 col-sm-12 col-md-4 caja">
-    <img src="<?php echo base_url()?>/imagenes/nike.png" class="marcas ">
+    <div class="col-4 col-sm-4 col-md-4 caja">
+    <img src="<?php echo base_url()?>/imagenes/Adidas.png" class="marcas ">
     </div>
-    <div class="col-4 col-sm-12 col-md-4  caja">
-    <img src="<?php echo base_url()?>/imagenes/Adidas.png" class="marcas" >
-    </div>
-    <div class="col-4 col-sm-12 col-md-4  caja">
+    <div class="col-4 col-sm-4 col-md-4  caja">
     <img src="<?php echo base_url()?>/imagenes/puma.png" class="marcas" >
+    </div>
+    <div class="col-4 col-sm-4 col-md-4  caja">
+    <img src="<?php echo base_url()?>/imagenes/Nike.png" class="marcas" >
     </div>
 </div>
 <!-- Container (Contact Section) -->

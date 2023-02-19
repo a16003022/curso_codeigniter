@@ -22,9 +22,11 @@
           <span style="color: #9162DD">obtener beneficios</span>
         </h1>
         <p class="mb-4">
-          <li class="text-promos">15% de descuento en tus primeras 15 compras</li>
-          <li class="text-promos">Carreras patrocinadas con paquetes Tec-Shirts</li>
-          <li class="text-promos">Promociones especiales para clientes registrados</li>
+          <li class="text-promos">Obtendrás un 15% de descuento en tu primera compra</li>
+          <li class="text-promos">Tendrás acceso a contenido y productos exclusivos</li>
+          <li class="text-promos">Participar en carreras patrocinadas con Kits Tec-Shirts</li>
+          <li class="text-promos">Podrás obtener meses sin intereses y envíos gratis</li>
+          <li class="text-promos">Recibirás promociones especiales antes que los demás</li>
         </p>
       </div>
 
@@ -61,16 +63,22 @@
                 <label class="form-label" for="form3Example4">Contraseña</label>
               </div>
 
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="form3Example4" class="form-control" />
+                <label class="form-label" for="form3Example4">Confirmar contraseña</label>
+              </div>
+
               <!-- Checkbox -->
               <div class="form-check d-flex justify-content-center mb-4">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33"/>
                 <label class="form-check-label" for="form2Example33">
                   Acepto términos y condiciones
                 </label>
               </div>
 
               <!-- Submit button -->
-              <button type="submit" class="btn btn-jumbotron btn-primary btn-block mb-4">
+              <button type="submit" class="btn btn-primary btn-jumbotron btn-block mb-4">
                 Registrar
               </button>
 

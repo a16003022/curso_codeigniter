@@ -34,8 +34,6 @@ $routes->get('/', 'Home::index');
 $routes->add('/articulos', 'articulos::mensaje');
 $routes->add('inicio', 'Inicio::index');
 $routes->add('registro', 'Registro::index');
-$routes->add('contacto', 'Contacto::index');
-$routes->add('/catalogo/(:num)', 'Contacto::catalogo/$1');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

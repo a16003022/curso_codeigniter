@@ -22,7 +22,7 @@ class App extends BaseConfig
      * explicitly and never rely on auto-guessing, especially in production
      * environments.
      */
-    public string $baseURL = 'http://localhost:80/curso_codeigniter/curso_codeigniter';
+    public string $baseURL = 'http://localhost:80/curso_codeigniter';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.

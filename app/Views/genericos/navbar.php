@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fijado">
   <div class="container-fluid">
       <a href="<?php echo base_url()?>/inicio">
         <img class="logo" src="<?php echo base_url()?>/imagenes/1.png">
